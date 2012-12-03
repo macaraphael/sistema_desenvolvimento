@@ -1,0 +1,96 @@
+/* 
+    Document   : style
+    Created on : 19/11/2012, 09:43:46
+    Author     : Raphael
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body{
+    margin: 0px;
+    font-family: arial;
+    font-size: 13px;
+    color:#363636;
+}
+
+/*top*/
+#top .content{
+    background: #4F94CD;
+    padding: 18px;
+    color: #FFF;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+#line{
+    background: #36648B;
+    height: 3px;
+}
+
+/*Formulario*/
+fieldset {
+    width: 163px;
+    border: 1px solid #CCC;
+}
+fieldset legend{
+    color: #4F94CD;
+    font-weight: bold;
+}
+fieldset label{
+    display: block;
+}
+fieldset label span{
+    display: block;
+}
+fieldset label input[type="text"] {
+    border: 1px solid #CCCCCC;
+}
+input[type="submit"]{
+    background: url(../media/savebutton.png);
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+    border: 0px;
+    height: 29px;
+    width: 31px;
+    cursor: pointer;
+    float: right;
+    margin-top: 5px;
+    margin-right: 11px;
+}
+
+/*Permissao*/
+#permissao {
+    margin-left: 204px;
+    margin-right: 17px;
+    position: absolute;
+    width: 82%;
+    clear: both;
+    margin-top: 29px;
+}
+#permissao label{
+    display: block;
+}
+#permissao label span{
+    text-transform: capitalize;
+}
+
+#permissao .ok span b{
+    color:#006400;
+    letter-spacing: -1px;
+}
+
+#permissao .erro span b{
+    color:#CD3700;
+    letter-spacing: -1px;
+}
+
+/*Erro*/
+input.error{
+    color:#CD3700;
+    border:1px solid #CD3700!important;
+}
+label.error{
+    color:#CD3700;
+}
+/*hack*/
+@media screen and(-webkit-min-device-pixel-ratio:0){
+  
+}

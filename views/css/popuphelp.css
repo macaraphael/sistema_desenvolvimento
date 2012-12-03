@@ -1,0 +1,86 @@
+/* 
+    Document   : popuphelp
+    Created on : 22/11/2012, 10:30:33
+    Author     : Raphael
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body{
+    font-family: arial;
+    color: #484A4C;
+    font-size: 12px;
+    margin: 0;
+}
+
+#box_help hr{
+    clear: both;
+    border: 0px;
+    margin-bottom: 17px;
+}
+
+#box_help .top{
+}
+#box_help .top h1{
+    float: left;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 14px;
+    margin-left: 8px;
+}
+#box_help .top img{
+    float: left;
+    width: 46px;
+}
+
+/*Formulario*/
+#box_help .form_search{
+    float: right;
+    margin-top: 11px;
+}
+#box_help .form_search input[type="text"]{
+    padding: 3px;
+    color: #484A4C;
+    font-weight: bold;
+    border:1px solid #CCC;
+}
+#box_help .form_search input[type="submit"]{
+    background: url(../../media/search.png);
+    background-repeat: no-repeat;
+    border: 0px;
+    text-indent: -899999px;
+    height: 35px;
+    width: 29px;
+}
+
+#box_help .erro_no_halp{
+    width: 100%;
+}
+
+#box_help .erro_no_halp p{
+    text-align: center;
+    color: #CD3700;
+    font-weight: bold;
+    margin-top: 10%;
+    font-size: 15px;
+}
+
+#box_help #top_title{
+    border-bottom: 1px solid #CD3700;
+}
+#box_help .referencia{
+    font-size: 14px;
+    padding-left: 9px;
+}
+#box_help .referencia b{
+    color:#CD3700;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#box_help .referencia span{
+    color: #5176A5;
+    font-weight: bold;
+}
+#box_help #text{
+    padding-left: 10px;
+    padding-right: 10px;
+}
